@@ -125,7 +125,7 @@ extern "C" const TA_SQL_Minidriver localMySQLMinidriver =
 
 /**** Global functions definitions.    ****/
 
-extern "C" TA_RetCode TA_MYSQL_Initialize(void)
+TA_RetCode TA_MYSQL_Initialize(void)
 {
    TA_PROLOG
    TA_TRACE_BEGIN( TA_MYSQL_Initialize );

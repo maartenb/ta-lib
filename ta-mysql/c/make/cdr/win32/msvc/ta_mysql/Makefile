@@ -70,6 +70,13 @@ dist:
 clean:
         -del ..\..\..\..\..\temp\cdr\ta_mysql.obj
 	-del $(TARGET)
+	-del ../../../../../bin/*.map
+	-del ../../../../../bin/*._xe
+	-del ../../../../../bin/*.tds
+	-del ../../../../../bin/*.pdb
+	-del ../../../../../bin/*.pbo
+	-del ../../../../../bin/*.pbi
+	-del ../../../../../bin/*.pbt
 
 ####### Compile
 
